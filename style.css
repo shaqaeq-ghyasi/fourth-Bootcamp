@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: white;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  color: black;
+  padding: 64px 32px 96px;
+}
+/* section 6 */
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+h2 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin: 0;
+  font-weight: 600;
+  max-width: 520px;
+  letter-spacing: -0.01em;
+}
+.subcopy {
+  color: gray;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  max-width: 280px;
+  text-align: left;
+}
+.table-card {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e6e8f0;
+  padding: 36px 36px 40px;
+  position: relative;
+  box-shadow: 0 20px 40px -30px rgba(20, 21, 28, 0.25);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  column-gap: 24px;
+}
+.col-head {
+  padding-bottom: 18px;
+}
+.col-head .tier-name {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: #6b7080;
+  font-weight: 600;
+}
+.col-head .rate {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #2f5bff;
+  margin-top: 6px;
+}
+.col-head .req {
+  font-size: 0.82rem;
+  color: #6b7080;
+  margin-top: 4px;
+}
+.row-label {
+  display: flex;
+  align-items: center;
+  padding: 18px 0;
+  font-size: 0.95rem;
+  color: #1a1c26;
+  border-top: 1px solid #e6e8f0;
+}
+.cell {
+  display: flex;
+  align-items: center;
+  padding: 18px 0;
+  font-size: 0.95rem;
+  color: #1a1c26;
+  border-top: 1px solid #e6e8f0;
+}
+
+.cell.dash {
+  color: #6b7080;
+}
+
+.reserve-col {
+  grid-row: 1 / span 8;
+  grid-column: 4;
+  background: #14151c;
+  color: #fff;
+  border-radius: 16px;
+  padding: 24px 20px;
+  margin-top: -8px;
+  display: flex;
+  flex-direction: column;
+}
+.reserve-col .tier-name {
+  color: rgba(255, 255, 255, 0.6);
+}
+.reserve-col .rate {
+  color: #fff;
+}
+.reserve-col .req {
+  color: rgba(255, 255, 255, 0.55);
+}
+.reserve-col .cell {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: #fff;
+  padding: 16px 0;
+}
+.reserve-col .col-head {
+  border-bottom: none;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 32px;
+}
+.stat {
+  background: #ffffff;
+  border: 1px solid #e6e8f0;
+  border-radius: 16px;
+  padding: 22px 24px;
+}
+.stat .num {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.stat .lbl {
+  font-size: 0.82rem;
+  color: #6b7080;
+  margin-top: 4px;
+}
+/* section 7 */
+
+.section-7 {
+  margin: 100px 0;
+  background-color: rgb(234, 237, 240);
+  padding: 80px;
+  border-radius: 12px;
+}
+h2 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin: 0 0 48px;
+  font-weight: 600;
+  max-width: 640px;
+  letter-spacing: -0.01em;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e6e8f0;
+  box-shadow: 0 20px 40px -30px rgba(20, 21, 28, 0.25);
+  overflow: hidden;
+}
+
+.testimonial {
+  padding: 44px 40px;
+  border-left: 1px solid #e6e8f0;
+}
+.testimonial:first-child {
+  border-left: none;
+}
+
+.quote {
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: #1a1c26;
+  margin: 0 0 32px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.name {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.role {
+  font-size: 0.85rem;
+  color: #6b7080;
+  margin-top: 2px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1.2fr 1fr 1fr;
+  }
+  .reserve-col {
+    grid-row: auto;
+    grid-column: 1/-1;
+    margin-top: 24px;
+  }
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .testimonial {
+    border-left: none;
+    border-top: 1px solid #e6e8f0;
+  }
+  .testimonial:first-child {
+    border-top: none;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
