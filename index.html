@@ -3,161 +3,760 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>InstaPay</title>
+
     <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
+
   <body>
-    <!-- section 6 -->
-    <section>
-      <div class="wrap">
-        <div class="header">
-          <h2>The longer you bank with us, the better it gets</h2>
-          <p class="subcopy">
-            Tiers move on their own with your average balance. You never apply,
-            and nothing is taken away in a quiet email.
+    <div class="page">
+      <section class="hero">
+        <div class="sky"></div>
+
+        <header class="navbar">
+          <div class="logo">INSTA<span>.PAY</span></div>
+
+          <nav>
+            <a href="#">ACCOUNT +</a>
+            <a href="#">CARDS</a>
+            <a href="#">SAVE & INVEST</a>
+            <a href="#">TOOLS</a>
+          </nav>
+
+          <button class="open-account">
+            OPEN ACCOUNT
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </header>
+
+        <div class="hero-content">
+          <h1>Money that<br />Moves the Way</h1>
+
+          <div class="buttons">
+            <button class="dark-button">OPEN AN ACCOUNT</button>
+
+            <button class="light-button">
+              SEE THE CARDS
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="person">
+          <img
+            src="https://images.pexels.com/photos/5082564/pexels-photo-5082564.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            alt="Person using a smartphone"
+          />
+        </div>
+
+        <div class="money-card">
+          <div class="card-top">
+            <span>EVERYDAY</span>
+            <span>•••• 4821</span>
+          </div>
+
+          <h2>$12,480.65</h2>
+
+          <div class="bars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="transaction">
+            <div class="transaction-icon">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+
+            <div class="transaction-info">
+              <strong>Market Grocer</strong>
+              <small>3% back applied</small>
+            </div>
+
+            <b>-$42.10</b>
+          </div>
+
+          <div class="transaction">
+            <div class="transaction-icon">
+              <i class="fa-solid fa-arrow-up"></i>
+            </div>
+
+            <div class="transaction-info">
+              <strong>Payday</strong>
+              <small>Arrived 2 days early</small>
+            </div>
+
+            <b class="plus">+$3,240</b>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <h3>1.2M</h3>
+            <p>Members</p>
+          </div>
+
+          <div class="stat">
+            <h3>$0</h3>
+            <p>Monthly Fee</p>
+          </div>
+
+          <div class="stat">
+            <h3>4MIN</h3>
+            <p>to Switch Account</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-section">
+        <div class="why-container">
+          <div class="why-top">
+            <div class="why-left">
+              <h2>WHY INSTA<span>.PAY</span></h2>
+
+              <p>
+                Built for people who expect a little more thought from a bank
+                that truly understands.
+              </p>
+
+              <button class="explore-btn">
+                EXPLORE EVERYTHING
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+
+            <div class="why-right">
+              <h2>
+                Banking that stays quiet,<br />
+                moves fast, and always sits<br />
+                on your side
+              </h2>
+
+              <p>
+                One place for the money coming in, the money going out, and the
+                part you're actually trying to keep, without any noise.
+              </p>
+              <div class="features">
+                <div>
+                  ✓
+                  <span>No overdraft traps, ever again.</span>
+                </div>
+
+                <div>
+                  ✓
+                  <span>Paid up to 2 days early</span>
+                </div>
+
+                <div>
+                  ✓
+                  <span>Real support, 24/7</span>
+                </div>
+
+                <div>
+                  ✓
+                  <span>Interest paid monthly, every month.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-cards">
+            <div class="feature-card photo-card">
+              <img
+                src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=700"
+                alt="Woman smiling while using a smartphone"
+              />
+
+              <span class="popular-label">MOST POPULAR</span>
+
+              <div class="photo-overlay">
+                <h3>Cards & Payments</h3>
+
+                <p>
+                  Tap anywhere, send abroad at the real rate, freeze a card in
+                  one swipe.
+                </p>
+
+                <button>
+                  COMPARE CARDS
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="feature-card savings-card">
+              <div class="saving-top">
+                <div>
+                  <h3>4.30<span>%</span></h3>
+                  <p>APY, paid every month</p>
+                </div>
+
+                <span class="saving-label">SAVING</span>
+              </div>
+
+              <div class="card-description">
+                <h3>High-Yield Savings</h3>
+
+                <p>Two minutes to open. No minimum to keep it open.</p>
+              </div>
+
+              <button>
+                START SAVING
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+
+            <div class="feature-card business-card">
+              <div class="business-top">
+                <div class="bank-icon">
+                  <i class="fa-solid fa-building-columns"></i>
+                </div>
+
+                <span>BUSINESS</span>
+              </div>
+
+              <div class="payment-list">
+                <div>
+                  <span>Payroll run</span>
+                  <span>Cleared</span>
+                </div>
+
+                <div class="selected-payment">
+                  <span>Invoice #2041</span>
+                  <span>Sent</span>
+                </div>
+
+                <div>
+                  <span>Vendor transfer</span>
+                  <span>Same day</span>
+                </div>
+              </div>
+
+              <div class="card-description">
+                <h3>Business Accounts</h3>
+
+                <p>
+                  Payroll, invoices and same-day transfers in one dashboard.
+                </p>
+              </div>
+
+              <button>
+                START FOR BUSINESS
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="scroll-bottom">
+            <span>SCROLL FOR MORE</span>
+
+            <div class="progress-line">
+              <div></div>
+            </div>
+
+            <span>04 accounts</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="smart-tools-section">
+        <div class="smart-tools-container">
+          <div class="smart-tools-heading">
+            <div class="smart-tools-label">
+              <h2>SMART TOOLS</h2>
+
+              <p>
+                Your money, handled by tools that do the<br />
+                part for you.
+              </p>
+            </div>
+
+            <div class="smart-tools-title">
+              <h1>
+                Sort the bills. Roundup<br />
+                the change.
+                <span
+                  >All of it for<br />
+                  automatic</span
+                >
+              </h1>
+            </div>
+          </div>
+          <div class="smart-tools-content">
+            <div class="smart-tools-photo">
+              <img
+                src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1000"
+                alt="Person using a smartphone"
+              />
+            </div>
+
+            <div class="smart-tools-cards">
+              <div class="roundup-box">
+                <div class="roundup-top">
+                  <span>Round-ups</span>
+
+                  <div class="roundup-icon">
+                    <i class="fa-solid fa-arrow-up-right-dots"></i>
+                  </div>
+                </div>
+
+                <h2>$1,842</h2>
+
+                <p>saved by members, on average, each year</p>
+              </div>
+
+              <div class="bill-box">
+                <div class="bill-heading">
+                  <span>Bill sorter</span>
+
+                  <div class="bill-icon">
+                    <i class="fa-solid fa-sliders"></i>
+                  </div>
+                </div>
+
+                <div class="bill-row">
+                  <span>Rent</span>
+                  <strong>1st</strong>
+                </div>
+
+                <div class="bill-row">
+                  <span>Utilities</span>
+                  <strong>9th</strong>
+                </div>
+
+                <div class="bill-row">
+                  <span>Subscriptions</span>
+                  <strong>22nd</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="reward-section">
+      <div class="reward-container">
+        <div class="reward-heading">
+          <h1>
+            Rewarding your<br />
+            everyday spending, <span>automatically.</span>
+          </h1>
+
+          <p>
+            Plus 1.5% on the rest. No categories to activate, no annual fee, no
+            cap<br />
+            buried in the small print.
+          </p>
+
+          <div class="reward-switch">
+            <button class="reward-active">Start earning</button>
+            <button>Business</button>
+          </div>
+        </div>
+
+        <div class="reward-images">
+          <div class="reward-main-photo">
+            <img
+              src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1000"
+              alt="Person using a smartphone"
+            />
+
+            <div class="cashback-box">
+              <strong>$412</strong>
+
+              <div>
+                <span>cashback earned</span>
+                <small>this year</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="reward-card-photo">
+            <img
+              src="https://images.pexels.com/photos/4968630/pexels-photo-4968630.jpeg?auto=compress&cs=tinysrgb&w=700"
+              alt="Bank card being held"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="checking-section">
+      <div class="checking-container">
+        <div class="checking-left">
+          <div class="checking-intro">
+            <h2>EVERYDAY CHECKING</h2>
+
+            <p>
+              Tiers that move on their own, the longer you stay,<br />
+              rewarding your loyalty every single month.
+            </p>
+          </div>
+
+          <div class="checking-stats">
+            <div class="checking-stat">
+              <h3>4.30%</h3>
+              <p>APY on savings</p>
+            </div>
+
+            <div class="checking-stat">
+              <h3>55,000</h3>
+              <p>Free ATMs worldwide</p>
+            </div>
+
+            <div class="checking-stat">
+              <h3>1.2M</h3>
+              <p>Members since 2019</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="checking-right">
+          <h1>
+            The longer you bank with us,<br />
+            the <span>better</span> the account gets.
+          </h1>
+
+          <div class="checking-cards">
+            <div class="account-card">
+              <span class="account-name">CORE</span>
+              <h2>2.10%</h2>
+
+              <small>APY</small>
+
+              <p class="account-balance">Any balance, from day one</p>
+
+              <div class="account-line"></div>
+
+              <p class="account-feature">✓ &nbsp; No monthly fee</p>
+              <p class="account-feature">✓ &nbsp; Instant transfers</p>
+              <p class="account-feature">✓ &nbsp; Fee-free ATMs in the US</p>
+            </div>
+
+            <div class="account-card">
+              <span class="account-name">PLUS</span>
+
+              <h2>3.40%</h2>
+
+              <small>APY</small>
+
+              <p class="account-balance">From $5,000 average balance</p>
+
+              <div class="account-line"></div>
+
+              <p class="account-feature">✓ &nbsp; Everything in Core</p>
+              <p class="account-feature">✓ &nbsp; Paid up to 2 days early</p>
+              <p class="account-feature">✓ &nbsp; Global ATM rebates</p>
+            </div>
+
+            <div class="account-card account-reserve">
+              <span class="account-name">RESERVE</span>
+
+              <h2>4.30%</h2>
+
+              <small>APY</small>
+
+              <p class="account-balance">From $25,000 average balance</p>
+
+              <div class="account-line"></div>
+
+              <p class="account-feature">✓ &nbsp; Everything in Plus</p>
+              <p class="account-feature">✓ &nbsp; Metal card, no FX markup</p>
+              <p class="account-feature">✓ &nbsp; Dedicated banker line</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="compare-section">
+      <div class="compare-container">
+        <div class="compare-heading">
+          <div class="compare-title">
+            <h1>
+              The longer you bank<br />
+              with us, the better it gets
+            </h1>
+          </div>
+
+          <p>
+            Tiers move on their own with your average balance.<br />
+            You never apply, and nothing is taken away in a quiet email.
           </p>
         </div>
 
-        <div class="table-card">
-          <div class="grid">
-            <!-- row label column -->
-            <div>
-              <div class="col-head">
-                <div class="tier-name">COMPARE TIERS</div>
-              </div>
-              <div class="row-label">Savings APY</div>
-              <div class="row-label">Monthly fee</div>
-              <div class="row-label">Salary up to 2 days early</div>
-              <div class="row-label">Global ATM rebates</div>
-              <div class="row-label">FX markup</div>
-              <div class="row-label">Card material</div>
-              <div class="row-label">Dedicated Banker</div>
-            </div>
-            <!-- Core -->
-            <div>
-              <div class="col-head">
-                <div class="tier-name">CORE</div>
-                <div class="rate">2.10%</div>
-                <div class="req">any balance</div>
-              </div>
-              <div class="cell">2.10%</div>
-              <div class="cell">$0</div>
-              <div class="cell dash">—</div>
-              <div class="cell">US only</div>
-              <div class="cell">0.4%</div>
-              <div class="cell">Recycled</div>
-              <div class="cell dash">—</div>
-            </div>
-            <!-- Plus -->
-            <div>
-              <div class="col-head">
-                <div class="tier-name">PLUS</div>
-                <div class="rate">3.40%</div>
-                <div class="req">$5,000+</div>
-              </div>
-              <div class="cell">3.40%</div>
-              <div class="cell">$0</div>
-              <div class="cell">Yes</div>
-              <div class="cell">Worldwide</div>
-              <div class="cell">0.2%</div>
-              <div class="cell">Recycled</div>
-              <div class="cell dash">—</div>
+        <div class="compare-table">
+          <div class="compare-row compare-header">
+            <div class="compare-label">COMPARE TIERS</div>
+
+            <div class="compare-plan">
+              <span>CORE</span>
+              <h2>2.10%</h2>
+              <small>any balance</small>
             </div>
 
-            <!-- Reserve -->
-            <div class="reserve-col">
-              <div class="col-head">
-                <div class="tier-name">RESERVE</div>
-                <div class="rate">4.30%</div>
-                <div class="req">$25,000+</div>
-              </div>
-              <div class="cell">4.30%</div>
-              <div class="cell">$0</div>
-              <div class="cell">Yes</div>
-              <div class="cell">Worldwide</div>
-              <div class="cell">None</div>
-              <div class="cell">Brushed metal</div>
-              <div class="cell">Yes</div>
+            <div class="compare-plan">
+              <span>PLUS</span>
+              <h2>3.40%</h2>
+              <small>$5,000+</small>
             </div>
+
+            <div class="compare-plan reserve-plan">
+              <span>RESERVE</span>
+              <h2>4.30%</h2>
+              <small>$25,000+</small>
+            </div>
+          </div>
+
+          <div class="compare-row">
+            <div class="compare-label">Savings APY</div>
+            <div>2.10%</div>
+            <div>3.40%</div>
+            <div class="reserve-cell">4.30%</div>
+          </div>
+
+          <div class="compare-row">
+            <div class="compare-label">Monthly fee</div>
+            <div>$0</div>
+            <div>$0</div>
+            <div class="reserve-cell">$0</div>
+          </div>
+
+          <div class="compare-row">
+            <div class="compare-label">Salary up to 2 days early</div>
+            <div>—</div>
+            <div>Yes</div>
+            <div class="reserve-cell">Yes</div>
+          </div>
+
+          <div class="compare-row">
+            <div class="compare-label">Global ATM rebates</div>
+            <div>US only</div>
+            <div>Worldwide</div>
+            <div class="reserve-cell">Worldwide</div>
+          </div>
+
+          <div class="compare-row">
+            <div class="compare-label">FX markup</div>
+            <div>0.4%</div>
+            <div>0.2%</div>
+            <div class="reserve-cell">None</div>
+          </div>
+
+          <div class="compare-row">
+            <div class="compare-label">Card material</div>
+            <div>Recycled</div>
+            <div>Recycled</div>
+            <div class="reserve-cell">Brushed metal</div>
+          </div>
+          <div class="compare-row last-row">
+            <div class="compare-label">Dedicated Banker</div>
+            <div>—</div>
+            <div>—</div>
+            <div class="reserve-cell">Yes</div>
           </div>
         </div>
-        <!-- small cardes -->
-        <div class="stats">
-          <div class="stat">
-            <div class="num">1.2M</div>
-            <div class="lbl">members since 2019</div>
-          </div>
-          <div class="stat">
-            <div class="num">$18B</div>
-            <div class="lbl">held on deposit</div>
-          </div>
-          <div class="stat">
-            <div class="num">55,000</div>
-            <div class="lbl">fee-free ATMs</div>
-          </div>
-          <div class="stat">
-            <div class="num">42s</div>
-            <div class="lbl">average answer time</div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- section 7 -->
-    <section class="section-7">
-      <div class="wrap">
-        <h2>People who stopped thinking about their bank.</h2>
-
-        <div class="testimonials">
-          <div class="testimonial">
-            <p class="quote">
-              I moved my salary over on a Tuesday and had forgotten about it by
-              Thursday. That is the highest praise I can give a bank.
-            </p>
-            <div class="person">
-              <div class="avatar">
-                <img src="images/sec7-1.png" alt="profile" />
-              </div>
-              <div>
-                <div class="name">Mara Ellison</div>
-                <div class="role">Freelance editor, Leeds</div>
-              </div>
-            </div>
+        <div class="compare-stats">
+          <div class="compare-stat">
+            <h2>1.2M</h2>
+            <p>members since 2019</p>
           </div>
 
-          <div class="testimonial">
-            <p class="quote">
-              The business side pays our contractors the same day. Our old bank
-              took three, and charged us for the privilege.
-            </p>
-            <div class="person">
-              <div class="avatar">
-                <img src="images/sec7-2.png" alt="profile" />
-              </div>
-              <div>
-                <div class="name">Dev Ramanathan</div>
-                <div class="role">Studio owner, Austin</div>
-              </div>
-            </div>
+          <div class="compare-stat">
+            <h2>$18B</h2>
+            <p>held on deposit</p>
           </div>
-          <div class="testimonial">
-            <p class="quote">
-              I called at 2am from an airport with a frozen card. Someone
-              answered in under a minute and fixed it.
-            </p>
-            <div class="person">
-              <div class="avatar">
-                <img src="images/sec7-3.jpg" alt="profile" />
-              </div>
-              <div>
-                <div class="name">Yusuf Karim</div>
-                <div class="role">Frequent flyer, Toronto</div>
-              </div>
-            </div>
+
+          <div class="compare-stat">
+            <h2>55,000</h2>
+            <p>fee-free ATMs</p>
+          </div>
+
+          <div class="compare-stat">
+            <h2>42s</h2>
+            <p>average answer time</p>
           </div>
         </div>
       </div>
     </section>
-    <script src="script.js"></script>
+    <section class="voices-section">
+      <div class="voices-container">
+        <h1>
+          People who stopped<br />
+          thinking about their bank.
+        </h1>
+
+        <div class="voices-list">
+          <div class="voice-card">
+            <p>
+              "I moved my salary over on a Tuesday and had forgotten about it by
+              Thursday. That is the highest praise I can give a bank."
+            </p>
+
+            <div class="voice-person">
+              <img
+                src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100"
+                alt="Mara Ellison"
+              />
+
+              <div>
+                <strong>Mara Ellison</strong>
+                <span>Freelance editor, Leeds</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="voice-card">
+            <p>
+              "The business side pays our contractors the same day. Our old bank
+              took three, and charged us for the privilege."
+            </p>
+
+            <div class="voice-person">
+              <img
+                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100"
+                alt="Dev Ramanathan"
+              />
+
+              <div>
+                <strong>Dev Ramanathan</strong>
+                <span>Studio owner, Austin</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="voice-card">
+            <p>
+              "I called at 2am from an airport with a frozen card. Someone
+              answered in under a minute and fixed it."
+            </p>
+
+            <div class="voice-person">
+              <img
+                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=100"
+                alt="Yusuf Karim"
+              />
+
+              <div>
+                <strong>Yusuf Karim</strong>
+                <span>Frequent flyer, Toronto</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="switch-section">
+      <div class="switch-box">
+        <div class="switch-information">
+          <h1>
+            Four minutes now, and<br />
+            you're done switching banks
+          </h1>
+
+          <p>
+            We move your direct deposits and standing payments<br />
+            across for you. Keep the old account open as long as you like.
+          </p>
+
+          <div class="switch-buttons">
+            <button class="switch-dark">GET STARTED FREE</button>
+
+            <button class="switch-light">
+              TALK TO A HUMAN
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="switch-steps">
+          <div class="switch-step">
+            <span>01</span>
+            <strong>Answer six short questions</strong>
+          </div>
+
+          <div class="switch-step">
+            <span>02</span>
+            <strong>We move your payments over</strong>
+          </div>
+          <div class="switch-step">
+            <span>03</span>
+            <strong>Card arrives in three days</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h2>INSTA<span>.PAY</span></h2>
+
+          <p>
+            Everyday banking for people who'd<br />
+            rather not think about banking.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>BANK</h3>
+
+          <a href="#">Checking</a>
+          <a href="#">Savings</a>
+          <a href="#">Credit cards</a>
+          <a href="#">Business</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>TOOLS</h3>
+
+          <a href="#">Budgets</a>
+          <a href="#">Round-ups</a>
+          <a href="#">Bill sorter</a>
+          <a href="#">Rate calculator</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>COMPANY</h3>
+
+          <a href="#">About us</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+          <a href="#">Newsroom</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>SUPPORT</h3>
+
+          <a href="#">Help centre</a>
+          <a href="#">Contact</a>
+          <a href="#">Lost card</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          insta.pay is a financial technology company, not a bank. Deposit
+          accounts are provided by our partner member<br />
+          institutions. Rates shown are current as of July 2026 and may change.
+        </p>
+
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Disclosures</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
